@@ -29,9 +29,9 @@ public class SmartTv {
         System.out.println("Diminuindo o volume para: " + volume);
     }
 
-    public void ligar(){
+    public void ligar(boolean ligaDesliga){
 
-        ligada = true;
+        ligada = ligaDesliga;
     }
 
     public void desligar(){

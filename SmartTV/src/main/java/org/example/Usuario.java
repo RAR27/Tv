@@ -5,12 +5,16 @@ public class Usuario {
 
         SmartTv smartTv = new SmartTv();
 
-        System.out.println("TV Ligada ? " + smartTv.ligada);
+        smartTv.ligar(true);
+        System.out.println("Tv ligada ? " + smartTv.ligada);
 
         System.out.println("Canal Atual: " + smartTv.canal);
         smartTv.aumentarCanal();
         System.out.println("Canal Atual: " + smartTv.canal);
         smartTv.aumentarCanal();
+        System.out.println("Canal Atual: " + smartTv.canal);
+        smartTv.mudarCanal(10);
+        smartTv.diminuirCanal();
         System.out.println("Canal Atual: " + smartTv.canal);
 
         smartTv.aumentarVolume();
