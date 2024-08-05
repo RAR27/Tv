@@ -1,7 +1,7 @@
 package org.example;
 
 public class SmartTv {
-    boolean ligada = false;
+    boolean ligada = true;
     int canal = 1;
     int volume = 10;
 
@@ -30,10 +30,12 @@ public class SmartTv {
     }
 
     public void ligar(){
+
         ligada = true;
     }
 
     public void desligar(){
-        ligada = false;
+
+        ligada = true;
     }
 }
